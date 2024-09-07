@@ -5,7 +5,7 @@ import java.util.Date;
 public class Envelope extends Guide{
     public Envelope(
             int id,
-            String status,
+            Status status,
             Date date,
             double weight,
             int amount,

@@ -6,7 +6,7 @@ public class Box extends Guide {
 
     public Box(
             int id,
-            String status,
+            Status status,
             Date date,
             double weight,
             int amount,

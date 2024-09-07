@@ -5,7 +5,7 @@ import java.util.Date;
 public class Package extends Guide{
     public Package(
         int id,
-        String status,
+        Status status,
         Date date,
         double weight,
         int amount,

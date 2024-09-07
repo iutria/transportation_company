@@ -7,7 +7,7 @@ public abstract class Guide {
     protected String type;
     protected final static double INCREMENT = 0.25;
     protected int id;
-    protected String status;
+    protected Status status;
     protected Date date;
     protected double weight;
     protected int amount;
@@ -17,7 +17,7 @@ public abstract class Guide {
 
     public Guide(
             int id,
-            String status,
+            Status status,
             Date date,
             double weight,
             int amount,
@@ -64,11 +64,11 @@ public abstract class Guide {
         this.id = id;
     }
 
-    public String getStatus() {
+    public Status getStatus() {
         return status;
     }
 
-    public void setStatus(String status) {this.status = status;}
+    public void setStatus(Status status) {this.status = status;}
 
     public Date getDate() {
         return date;
